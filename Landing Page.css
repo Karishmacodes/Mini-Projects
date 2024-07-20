@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: rgb(59, 59, 59);
+    background-image: url(foodimg1.jpg);
+    background-blend-mode: darkens;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+     display: inline-block;
+     padding: 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    transition: 1.5s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset;
+}
+
+.navbar .order{
+    padding: 8px;
+    background-color: orangered;
+}
+
+.content{
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 18%;
+}
+
+.content h3{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 30%;
+
+}
+
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    text-align: center;
+    margin-top: 17px;
+    font-weight: 600;
+}
+
+.search{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 39%;
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 12px 40px;
+    size: 1rem;
+    width: 130%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.testimonial{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 33%;
+    padding: 30px;
+    color: white;
+}
+.testimonial-item{
+    background-color: orangered;
+    border-radius: 30px;
+    padding: 30px;
+    
+}
+.header h2{
+    font-size: xx-large;
+    color: white;
+    line-height: 1.2;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+.testimonial-item img{
+    width: 60px;
+    margin-right: 20px;
+    vertical-align: middle;
+    height: 50px;
+    border-radius: 50%   
+}
+.testimonial-item .info{
+    display: flex;
+    align-items: center;
+}
+.testimonial-item .name{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.testimonial-item p{
+    margin-top: 20px;
+}
+
+.testimonial-item .rating{
+    margin-top: 20px;
+    font-size: 14px;
+    color: blue;
+}
+
+.foot{
+    height: 420px;
+    width: 100%;
+    background-color: bisque;
+    position: absolute;
+    margin-top: 170%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foot-contact{
+    position: absolute;
+    margin-top: 190%;
+    text-align: center;
+    margin-left: 39%;
+    color: orangered;
+}
+.footicon{
+    position: absolute;
+    margin-top: 196%;
+    text-align: center;
+    margin-left: 41%;
+    padding-left: 40px;
+}
+.lastend{
+    position: absolute;
+    margin-top: 199%;
+    text-align: center;
+    margin-left: 36%;
+}
