@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    font-weight: 700;
+    font-size: large;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    transition: 1.5s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset;
+}
+.navbar .Contact{
+    padding: 8px;
+    background-color: rgb(248, 165, 134);
+    font-weight: 700;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(206, 206, 206);
+}
+.container .logo{
+    color: orangered;
+    margin-left: 5%;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 350px;
+    font-size: x-large;
+}    
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    padding: 30px 12% 0;
+}
+
+.hometext h3{
+     max-width: 42px;
+}
+
+.hometext{
+    max-width: 800px;
+}
+
+.hometext h1{
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.hometext p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.but1{
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.but2{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    cursor: pointer;
+}
+.but2:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.but3{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    cursor: pointer;
+}
+.but3:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.img1 img{
+    height: 350px;
+    width: 300px;
+    border-radius: 50%;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: black;
+}
+
+.aboutimg img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 0 25px orangered;
+    border-radius: 50%;
+}
+
+.abouttext h2{
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+.abouttext h3{
+    font-size: 30px;
+    color: white;
+}
+.abouttext p{
+    font-size: 20px;
+    color: white;
+}
+.but4{
+    padding: 15px 28px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    cursor: pointer;
+}
+.but4:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.form h2{
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-size: 35px;
+}
+.form form{
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin-left: 33%;
+    margin-bottom: 40px;
+    font-size: xx-large;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.form form .inputbox{
+    justify-content: center;
+    flex-wrap: wrap;  
+    width: 100%; 
+}
+.but5{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    cursor: pointer;
+}
+.but5:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.foot{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+.foot .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.foot .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid rgb(252, 201, 183);
+    width: 60px;
+    height: 60px;
+    line-height: 38px;
+    border-radius: 20%;
+    margin: 0 15px;
+}
+
+.foot ul li a{
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    margin-left: 650px;
+}
+
+.foot p{
+    color: white;
+    margin-left: 500px;
+}
+ 
+
+
