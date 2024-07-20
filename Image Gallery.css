@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+}
+
+.text1 h1{
+    text-align: center;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.text1 p{
+    font-size: medium;
+    text-align: center;
+}
+
+.photo1{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.photo1 img{
+    height: 200px;
+    width: 250px;
+    border: 1px solid rgb(241, 238, 238);
+    align-items: center;
+}
+.photo1 img:hover{
+    border-radius: 40%;
+}
+
+.photo2{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.photo2 img{
+    height: 200px;
+    width: 250px;
+    border: 1px solid rgb(241, 238, 238);
+    align-items: center;
+}
+.photo2 img:hover{
+    transform: scaleX(1.5);
+}
+.photo3{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.photo3 img{
+    height: 425px;
+    width: 520px;
+    border: 1px solid rgb(241, 238, 238);
+    align-items: center;
+}
+.photo3 img:hover{
+    transform: rotate(90deg);
+}
+.pic1 img{
+    height: 200px;
+    width: 250px;
+    border: 1px solid rgb(241, 238, 238);
+    
+}
+.pic2 img{
+    height: 200px;
+    width: 250px;
+    border: 1px solid rgb(241, 238, 238);    
+}
+
+.foot{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(48, 48, 53, 0.336);
+    padding: 20px;
+    text-align: center;
+}
+
+.foot h2{
+    font-size: large;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.foottext a{
+     text-align: center;
+    padding: 30px;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.foottext a:hover{
+    color: red;
+}
+.tag1 a{
+    font-size: xx-large;
+}
+.tag1 a:hover{
+    background-color: red;
+    color: white;
+}
